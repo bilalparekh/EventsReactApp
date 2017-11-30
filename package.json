@@ -1,0 +1,25 @@
+{
+  "name": "planoevent",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^4.4.0",
+    "material-ui": "^0.19.4",
+    "react": "^15.6.2",
+    "react-bootstrap": "^0.31.3",
+    "react-calendar": "^2.0.3",
+    "react-day-picker": "^6.1.1",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
+    "react-responsive-ui": "^0.9.28",
+    "react-router": "^4.2.0",
+    "react-scripts": "1.0.13",
+    "reactfire": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

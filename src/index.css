@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  overflow-x: hidden;
+}
+#backContainer{
+   background: url(calendar-ui-event.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 6.9in 
+}
+.foo{
+    list-style: none;
+    color: #6a7783;
+    padding: 20px
+}
+input.getTask::-moz-placeholder{
+    color: white !important;
+}
+.btnCSS{
+    background-color: #795d5d;
+    border: none;
+    border-radius: 8px;
+    color: wheat;
+    /* float: right; */
+    position: absolute;
+    top: 0;
+}
+.foo li{
+   padding: 5px;
+    border-bottom: 1px solid #6a7783;
+    border-bottom-width: unset;
+    display: inline-block;
+    width: 77%;
+    color: white;
+}
+.foo section h4{
+    display: none;
+}
+.foo section:first-child h4{
+    display: inline-block !important;
+}
+.deleteEvent{
+    display: inline-block;
+    float: right;
+    font-size: 11px;
+    border-radius: 27px;
+    background-color: #ff7f66;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    font-weight: bold;
+}
+.completed{
+  text-decoration: none;
+  color: red
+}
+TodoList{
+  color: white
+}
+.formInput{
+  display: none;
+}
+.react-calendar__navigation__arrow,.react-calendar__navigation__label,.react-calendar__month-view__days__day,.react-calendar__month-view__weekdays__weekday{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    padding: 15px;
+   
+}
+.react-calendar__month-view__weekdays__weekday{
+    color: #3e454c;
+    font-size: 22px;
+    font-family: roboto;
+
+}
+.react-calendar__month-view__days__day{
+    color: #3e454c;
+    font-size: 16px;
+    font-family: roboto;
+}
+.react-calendar__navigation__label{
+  flex-grow: 1;
+    font-size: 20px;
+  
+}
+.react-calendar{
+    width: 60%;
+    background: white;
+    margin: auto;
+    /* float: left; */
+    background-color: #f3f3f3 !important;
+    /* font-size: 9px; */
+}
+.footerContainer{
+   background-color: #f3f3f3 !important;
+    width: 60%;
+    /* display: inline-block; */
+    /* float: left; */
+    padding-bottom: 50px;
+    margin: auto;
+}
+.FormSection{
+       /* width: 230px; */
+    /* display: inline-block; */
+    background-color: #3e454c;
+    height: 100%;
+    /* padding-bottom: 14px; */
+    /* float: right; */
+    margin: auto;
+    overflow: auto;
+}
+.drawerContainer div:first-child{
+    right: 9px!important;
+    top: 68px !important;
+    height: 440px!important;
+    position: absolute!important;
+}
+.mainContainer{
+    display: inline-block;
+    width: 965px;
+    margin: 5em 0em 0 10em;
+}
+.plannedEvent{
+   border: none;
+    padding: 14px;
+    width: 240px;
+    background-color: #3e454c !important;
+    color: #ff7f66 !important;
+    border-radius: 3px !important;
+    /* margin: 16px; */
+    position: relative;
+    left: 60px;
+    top: 14px;
+    font-size: 15px;
+    text-shadow: none !important;
+}
+.reminder{
+    border: none;
+    padding: 9px;
+    width: 180px;
+    border-radius: 6px;
+    padding: 14px;
+    position: relative;
+    left: 80px;
+    top: 14px;
+    background-color: #3e454c !important;
+    color: #ff7f66 !important;
+    font-size: 15px;
+        text-shadow: none !important;
+}
+.getTask{
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ff7f66;
+  padding: 3px;
+  color: white;
+}
+.getTask:focus{
+  border: none;
+}
+.headingMain{
+  color: #ff7f66;
+    text-align: center;
+    font-size: 20px;
+}
+.containerForm{
+    padding: 5px;
+    text-align: center;
+}
+.EditTask{
+    
+    display: inline-block;
+    float: right;
+    width: 29%;
+    margin-right: -15px;
+    padding: 2px !important;
+}
+.AddTaskBtn,.EditTask{
+    background-color: #2c3136;
+    border: 1px solid #2c3136;
+    border-radius: 4px;
+    padding: 5px;
+    color: #ff7f66;
+}
+.react-calendar__month-view__days__day > time:focus,.react-calendar__month-view__days__day > time:hover{
+  background-color: #ff7f66;
+    padding: 5px;
+    border-radius: 13px;
+}
+
+
+.mainContainer{
+    display: inline-block;
+    width: 100%;
+    margin: 5em 0em 0 0em;
+}
+.react-calendar__month-view__weekdays__weekday{
+   
+    font-size: 18px;
+    
+
+}
+.react-calendar__month-view__days__day{
+   
+    font-size: 12px;
+  
+}
+.react-calendar__navigation__label{
+ 
+    font-size: 16px;
+  
+}
+
+@media only screen and (max-width: 650px){
+    body{
+        overflow-x: hidden;
+    }
+.drawerContainer div:first-child {
+    right: 9px!important;
+    top: 68px!important;
+    height: 440px!important;
+    position: absolute!important;
+}
+.react-calendar {
+    width: 80% !important;
+    background: white;
+    /* margin: auto; */
+    /* float: left; */
+    background-color: #f3f3f3 !important;
+    /* font-size: 9px; */
+    position: relative;
+    left: 7em !important;
+}
+.react-calendar__month-view__weekdays__weekday,.react-calendar__month-view__days__day{
+   font-size: 8px !important;
+}
+.react-calendar__navigation__arrow,.react-calendar__month-view__days__day,.react-calendar__month-view__weekdays__weekday{
+    padding: 5px !important;
+}
+.react-calendar__navigation__label{
+    padding: 4px !important;
+    font-size: 9px !important;
+}
+.plannedEvent {
+    width: 125px !important;
+    padding: 8px !important;
+    font-size: 11px !important;
+    /* left: 80px; */
+    /* top: 7px; */
+    margin: auto !important;
+    display: block !important;
+    position: relative;
+    left: 3.5em;
+    background-color: rgb(62, 69, 76);
+    color: rgb(255, 127, 102);
+    text-shadow: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px;
+    border-radius: 3px !important;
+}
+.reminder{
+        border: none;
+    padding: 9px !important;
+    width: 125px !important;
+    border-radius: 4px;
+    padding: 8px !important;
+    position: relative;
+    left: 3em !important;
+    top: 18px !important;
+    background-color: #3e454c !important;
+    color: #ff7f66 !important;
+    font-size: 11px;
+    text-shadow: none !important;
+}
+.mainContainer {
+    display: inline-block;
+    width: 85% !important;
+    margin: 5em 0em 0 -4.5em !important;
+}
+.footerContainer {
+    
+    width: 45%;
+    padding-bottom: 50px;
+    background-color: #f3f3f3 !important;
+    width: 60%;
+    /* display: inline-block; */
+    /* float: left; */
+    padding-bottom: 50px;
+}
+.chk {
+    /* width: 404px; */
+    background-color: #f3f3f3 !important;
+    /* top: 0px; */
+    /* position: relative; */
+    /* left: 176px; */
+    width: 80% !important;
+    position: relative;
+    left: 7em !important;
+    margin: auto;
+}
+}
+
+
+
+
